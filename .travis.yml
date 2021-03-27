@@ -17,7 +17,7 @@ before_install:
 install:
     - sudo apt-get install libzbar0 libzbar-dev libpoppler-cpp-dev tesseract-ocr libfuzzy-dev libcaca-dev liblua5.3-dev
     - pip install pipenv
-    - pipenv install --dev
+    - pipenv install --verbose --dev
     # install gtcaca
     - git clone git://github.com/stricaud/gtcaca.git
     - mkdir -p gtcaca/build
